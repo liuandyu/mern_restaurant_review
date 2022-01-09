@@ -1,0 +1,13 @@
+1) Download sample data: wget https://atlas-education.s3.amazonaws.com/sampledata.archive
+
+2) Import data by using mongorestore tool:
+mongorestore --archive=sampledata.archive
+
+3) Last line of output:
+433281 document(s) restored successfully. 0 document(s) failed to restore.
+https://ryip.me/posts/mongodb/import-data/
+
+youtube video: https://www.youtube.com/watch?v=mrHNSanmqQ4
+
+
+Create frontend: npx create-react-app frontend
